@@ -89,3 +89,15 @@ I initially selected Google Sheets to process the data using the R programming l
 - Changed ActivityDate column from text to Date.
 - Created filters to check for missing values.
 - COUNTUNIQUE function showed entries from 33 unique participants.
+
+8 participants in the weightLogInfo_merged dataset are not significant to make any recommendations and conclusions. Furthermore, data from dailyCalories_merged and dailySteps_merged is available in the dailyActivity_merged dataset. For further analysis, dailyActivity_merged and sleepDay_merged datasets will be used.
+
+**R Data Cleaning:**
+
+```
+install.packages(tidyverse)
+library(tidyverse)
+
+activity <- read_csv("...dailyActivity_merged.csv")
+sleep <- read_csv("...sleepDay_merged.csv")
+```
