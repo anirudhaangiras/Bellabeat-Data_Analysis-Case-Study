@@ -37,11 +37,11 @@ In the prepare phase, we identify the data being used and its credibility.
 
 The data is publicly available on [Kaggle](https://www.kaggle.com/datasets/arashnic/fitbit). Thirty eligible Fitbit users consented to submit personal tracker data, including minute-level output for physical activity, heart rate, and sleep monitoring, generated between 12 March 2016 and 12 May 2016. The data was inspired by human temporal routine behavioural analysis and pattern recognition.
 The data is stored in 18 CSV files, but I have focused my analysis on the following five files:
-- weightLogInfo_merged
 - sleepDay_merged
+- weightLogInfo_merged
 - dailyActivity_merged
+- dailyCalories_merged
 - dailySteps_merged
-- hourlyCalories_merged
 
 **Data Limitations:**
 
@@ -57,3 +57,30 @@ To assess the credibility of the data, I followed the ROCCC criteria:
 - Cited: Data is collected by a third-party provider and is not cited.
 
 ## Process
+
+I selected Google Sheets to process the data by cleaning and ensuring it is correct, relevant, complete and error-free.
+
+*sleepDay_merged:*
+- Changed SleepDay column from text to Date time.
+- Created filters to check for missing values.
+- COUNTUNIQUE function showed entries from 24 unique participants.
+
+*weightLogInfo_merged:*
+- Changed Date column from text to Date time.
+- Changed WeightKg, WeightPounds and BMI columns to Number.
+- Dropped Fat column as it contained only two values.
+- COUNTUNIQUE function showed entries from 8 unique participants.
+
+*dailyActivity_merged:*
+- Changed ActivityDate column from text to Date.
+- Changed VeryActiveDistance, ModeratelyActiveDistance, LightActiveDistance and SedentaryActiveDistance to Number. 
+- COUNTUNIQUE function showed entries from 33 unique participants.
+
+*dailyCalories_merged*
+- Changed ActivityDate column from text to Date.
+- COUNTUNIQUE function showed entries from 33 unique participants.
+
+*dailySteps_merged*
+- Changed ActivityDate column from text to Date.
+- COUNTUNIQUE function showed entries from 33 unique participants.
+
