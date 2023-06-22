@@ -126,21 +126,21 @@ activity %>%
   select(TotalSteps, TotalDistance, Calories) %>%
   summary()
 ```
-![Summary: Steps, Distance and Calories](https://github.com/anirudhaangiras/Bellabeat-Data_Analysis-Case-Study/blob/main/Analyse/1.png)
+![Summary: Steps, Distance and Calories](https://github.com/anirudhaangiras/Bellabeat-Data_Analysis-Case-Study/blob/main/Pictures/1.png))
 
 ```
 activity %>%
    select(VeryActiveMinutes, FairlyActiveMinutes, LightlyActiveMinutes, SedentaryMinutes) %>%
    summary()
 ```
-![Summary: Active Category Minutes](https://github.com/anirudhaangiras/Bellabeat-Data_Analysis-Case-Study/blob/main/Analyse/2.png)
+![Summary: Active Category Minutes](https://github.com/anirudhaangiras/Bellabeat-Data_Analysis-Case-Study/blob/main/Pictures/2.png)
 
 ```
 sleep %>%
   select(TotalSleepRecords, TotalMinutesAsleep, TotalTimeInBed) %>%
   summary()
 ```
-![Summary: Sleep Records](https://github.com/anirudhaangiras/Bellabeat-Data_Analysis-Case-Study/blob/main/Analyse/3.png)
+![Summary: Sleep Records](https://github.com/anirudhaangiras/Bellabeat-Data_Analysis-Case-Study/blob/main/Pictures/3.png)
 
 Some interesting insights can be drawn from these statistics. 
 - Average distance covered is 5.49 kilometres, and the average steps taken are 7,638. These numbers are lower than the CDC-recommended 10,000 steps per day, which is equivalent to about 8 kilometres for most people.
@@ -152,7 +152,7 @@ Some interesting insights can be drawn from these statistics.
 
 Data visualisations were created using Tableau Public. The Dashboard is shown below and can be found [here](https://public.tableau.com/app/profile/anirudha.sharma/viz/BellabeatCaseStudy_16874537645290/BellabeatCaseStudy).
 
-![Dashboard: Bellabeat Case Study](https://github.com/anirudhaangiras/Bellabeat-Data_Analysis-Case-Study/blob/main/Analyse/4.png)
+![Dashboard: Bellabeat Case Study](https://github.com/anirudhaangiras/Bellabeat-Data_Analysis-Case-Study/blob/main/Pictures/4.png)
 
 These data visualisations show some interesting trends.
 - The Weekday vs Average Distance bar graph shows a consistent amount of distance walked throughout the week with a slight decrease on Sunday.
