@@ -3,7 +3,6 @@
 ## Introduction
 [Bellabeat](https://bellabeat.com/) is a  high-tech manufacturer of health-focused products for women. Bellabeat designs technology that informs and inspires women around the world. Collecting data on activity, sleep, stress, and reproductive health has allowed Bellabeat to empower women with knowledge about their health and habits. Since it was founded in 2013, Bellabeat has grown rapidly and quickly positioned itself as a tech-driven wellness company for women.
 
-## Characters and Products
 **Characters:**
 -   Urška Sršen: Bellabeat’s co-founder and Chief Creative Officer
 -   Sando Mur: Mathematician and Bellabeat’s co-founder; a vital member of the Bellabeat executive team
@@ -23,6 +22,8 @@ In this hypothetical scenario, I am a junior data analyst working on the marketi
 I have been encouraged to use public data that explores smart device users’ daily habits, specifically, the [FitBit Fitness Tracker Data](https://www.kaggle.com/datasets/arashnic/fitbit) (**License- CC0: Public Domain**). Analysing FitBit fitness tracker data will help gain insights into how consumers use the FitBit app and discover trends for Bellabeat marketing strategy answering questions such as
 - What are some trends in smart device usage?
 - How could these trends apply to Bellabeat customers?
-- How could these trends help influence Bellabeat marketing strategy? 
+- How could these trends help influence Bellabeat marketing strategy?
+
+## Ask
 
 
