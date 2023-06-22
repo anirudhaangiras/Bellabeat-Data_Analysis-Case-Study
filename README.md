@@ -147,4 +147,5 @@ Some interesting insights can be drawn from these statistics.
 - The average participant sleeps more than 90% of their time in bed.
 
 ## Share
-Data visualisations were created using Tableau Public. The Tableau Dashboard can be found [here](https://public.tableau.com/app/profile/anirudha.sharma/viz/BellabeatCaseStudy_16874537645290/BellabeatCaseStudy)
+Data visualisations were created using Tableau Public. The Tableau Dashboard is shown below and can be found [here](https://public.tableau.com/app/profile/anirudha.sharma/viz/BellabeatCaseStudy_16874537645290/BellabeatCaseStudy).
+
