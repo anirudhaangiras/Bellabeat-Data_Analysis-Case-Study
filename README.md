@@ -90,14 +90,27 @@ I initially selected Google Sheets to process the data using the R programming l
 - Created filters to check for missing values.
 - COUNTUNIQUE function showed entries from 33 unique participants.
 
-8 participants in the weightLogInfo_merged dataset are not significant to make any recommendations and conclusions. Furthermore, data from dailyCalories_merged and dailySteps_merged is available in the dailyActivity_merged dataset. For further analysis, dailyActivity_merged and sleepDay_merged datasets will be used.
+8 participants in the weightLogInfo_merged dataset are not significant to make any significant recommendations and conclusions. Furthermore, data from dailyCalories_merged and dailySteps_merged is available in the dailyActivity_merged dataset. Therefore, for further analysis, dailyActivity_merged and sleepDay_merged datasets will be used.
 
 **R Data Cleaning:**
-
+- Install and activate the required packages
+- Count the number of unique participants
+- Change the ActivityDate and SleepDay columns from character to Date time
+- Remove duplicate rows from the dataset
 ```
 install.packages(tidyverse)
 library(tidyverse)
+install.packages(lubridate)
+library(lubridate)
+
+n_distinct(activity$Id)
+n_distinct(sleep$Id)
 
 activity <- read_csv("...dailyActivity_merged.csv")
 sleep <- read_csv("...sleepDay_merged.csv")
+activity$ActivityDate <- mdy(activity$ActivityDate)
+sleep$SleepDay <- mdy_hms(sleep$SleepDay,tz=Sys.timezone())
+
+activity_cl <- distinct(activity)
+sleep_cl <- distinct(sleep)
 ```
