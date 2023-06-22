@@ -8,6 +8,7 @@
 -   Urška Sršen: Bellabeat’s co-founder and Chief Creative Officer
 -   Sando Mur: Mathematician and Bellabeat’s co-founder; a key member of the Bellabeat executive team
 -   Bellabeat marketing analytics team: A team of data analysts responsible for collecting, analyzing, and reporting data that helps guide Bellabeat’s marketing strategy.
+
 **Products:**
 -   Bellabeat app: The Bellabeat app provides users health data related to their activity, sleep, stress, menstrual cycle, and mindfulness habits. This data can help users better understand their habits and make healthy decisions. The Bellabeat app connects to their line of smart wellness products.
 -   Leaf: Bellabeat’s classic wellness tracker can be worn as a bracelet, necklace, or clip. The Leaf Tracker connects to the Bellabeat app to track activity, sleep, and stress.
