@@ -161,3 +161,5 @@ These data visualisations show some interesting trends.
 - The Active Minutes Pie Chart shows that most participants remain sedentary throughout the day, with a very little amount of activity being very active or fairly active.
 
 ## Act
+
+Keeping the business task in mind, the insights drawn from the statistics and data visualisations above can help guide the marketing strategy for Bellabeat.
