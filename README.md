@@ -124,3 +124,17 @@ activity %>%
   summary()
 ```
 ![Summary: Steps, Distance and Calories](https://github.com/anirudhaangiras/Bellabeat-Data_Analysis-Case-Study/blob/main/Analyse/1.png)
+
+```
+activity %>%
+   select(VeryActiveMinutes, FairlyActiveMinutes, LightlyActiveMinutes, SedentaryMinutes) %>%
+   summary()
+```
+![Summary: Active Category Minutes](https://github.com/anirudhaangiras/Bellabeat-Data_Analysis-Case-Study/blob/main/Analyse/2.png)
+
+```
+sleep %>%
+  select(TotalSleepRecords, TotalMinutesAsleep, TotalTimeInBed) %>%
+  summary()
+```
+![Summary: Sleep Records](https://github.com/anirudhaangiras/Bellabeat-Data_Analysis-Case-Study/blob/main/Analyse/3.png)
