@@ -1,6 +1,7 @@
 # Google Data Analytics Capstone Project: How Can a Wellness Technology Company Play It Smart?
 
 ## Introduction
+
 [Bellabeat](https://bellabeat.com/) is a  high-tech manufacturer of health-focused products for women. Bellabeat designs technology that informs and inspires women around the world. Collecting data on activity, sleep, stress, and reproductive health has allowed Bellabeat to empower women with knowledge about their health and habits. Since it was founded in 2013, Bellabeat has grown rapidly and quickly positioned itself as a tech-driven wellness company for women.
 
 **Characters:**
@@ -21,6 +22,7 @@ In this hypothetical scenario, I am a junior data analyst working on the marketi
 I have been encouraged to use public data that explores smart device users' daily habits, specifically, the [FitBit Fitness Tracker Data](https://www.kaggle.com/datasets/arashnic/fitbit). Analysing FitBit fitness tracker data will help gain insights into how consumers use the FitBit app and discover trends for Bellabeat marketing strategy.
 
 ## Ask
+
 **Business Task:**
 
 Analyse Fitbit Fitness tracker data to gain insights into how consumers use smart devices and discover trends to guide the Bellabeat marketing strategy.
@@ -31,6 +33,7 @@ Analyse Fitbit Fitness tracker data to gain insights into how consumers use smar
 - How could these trends help influence Bellabeat's marketing strategy?
 
 ## Prepare
+
 In the prepare phase, we identify the data being used and its credibility.
 
 **Data Source:** 
@@ -147,6 +150,7 @@ Some interesting insights can be drawn from these statistics.
 - The average participant sleeps more than 90% of their time in bed.
 
 ## Share
+
 Data visualisations were created using Tableau Public. The Dashboard is shown below and can be found [here](https://public.tableau.com/app/profile/anirudha.sharma/viz/BellabeatCaseStudy_16874537645290/BellabeatCaseStudy).
 
 ![Dashboard: Bellabeat Case Study](https://github.com/anirudhaangiras/Bellabeat-Data_Analysis-Case-Study/blob/main/Analyse/4.png)
@@ -154,5 +158,6 @@ Data visualisations were created using Tableau Public. The Dashboard is shown be
 These data visualisations show some interesting trends.
 - The Weekday vs Average Distance bar graph shows a consistent amount of distance walked throughout the week with a slight decrease on Sunday.
 - The Weekday vs Average Sleep bar graph shows consistent sleep throughout the week with a slight increase in sleep patterns on weekends on Wednesday.
-- The Active Minutes Pie Chart shows that most of the participants remain sedentary throughout the day, with less than 5% of activity being very active or fairly active.
-- 
+- The Active Minutes Pie Chart shows that most participants remain sedentary throughout the day, with a very little amount of activity being very active or fairly active.
+
+## Act
