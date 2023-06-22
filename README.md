@@ -9,7 +9,7 @@
 -   Bellabeat marketing analytics team: A team of data analysts responsible for collecting, analyzing, and reporting data that helps guide Bellabeat's marketing strategy.
 
 **Products:**
--   Bellabeat app: The Bellabeat app provides users health data related to their activity, sleep, stress, menstrual cycle, and mindfulness habits. This data can help users better understand their habits and make healthy decisions. The Bellabeat app connects to their line of intelligent wellness products.
+-   Bellabeat app: The Bellabeat app provides users health data related to their activity, sleep, stress, menstrual cycle, and mindfulness habits. This data can help users better understand their practices and make healthy decisions. The Bellabeat app connects to their line of intelligent wellness products.
 -   Leaf: Bellabeat's classic wellness tracker can be worn as a bracelet, necklace, or clip. The Leaf Tracker connects to the Bellabeat app to track activity, sleep, and stress.
 -   Time: This wellness watch combines the timeless look of a classic timepiece with intelligent technology to track user activity, sleep, and stress. The Time watch connects to the Bellabeat app to provide insights into your daily wellness.
 -   Spring: This water bottle tracks daily water intake using innovative technology to ensure you are appropriately hydrated throughout the day. The Spring bottle connects to the Bellabeat app to track your hydration levels.
@@ -53,12 +53,12 @@ To assess the credibility of the data, I followed the ROCCC criteria:
 - Reliability: Data is reliable for the analysis as it contains fitness data relating to sleep, steps taken, calorie intake and heart rate.
 - Original: Data was collected by a third-party provider (Amazon Mechanical Turk).
 - Comprehensive: Data is comprehensive as its parameters match those of Bellabeat's products
-- Current: Data is not current as it was collected six years ago.
+- Current: Data needs to be updated as it was collected six years ago.
 - Cited: Data is collected by a third-party provider and is not cited.
 
 ## Process
 
-I initially selected Google Sheets to process the data using the R programming language to transform and process the data further.
+I initially selected Google Sheets to process the data and draw small conclusions from the dataset, afterwards using the R programming language to transform and process the data further.
 
 **Google Sheets Changelog:**
 
@@ -68,7 +68,7 @@ I initially selected Google Sheets to process the data using the R programming l
 - COUNTUNIQUE function showed entries from 24 unique participants.
 
 *weightLogInfo_merged:*
-- Changed Date column from text to Date time.
+- Changed the Date column from text to Date time.
 - Created filters to check for missing values.
 - Changed WeightKg, WeightPounds and BMI columns to Number.
 - Dropped Fat column as it contained only two values.
@@ -103,14 +103,17 @@ library(tidyverse)
 install.packages(lubridate)
 library(lubridate)
 
+activity <- read_csv("...dailyActivity_merged.csv")
+sleep <- read_csv("...sleepDay_merged.csv")
+
 n_distinct(activity$Id)
 n_distinct(sleep$Id)
 
-activity <- read_csv("...dailyActivity_merged.csv")
-sleep <- read_csv("...sleepDay_merged.csv")
 activity$ActivityDate <- mdy(activity$ActivityDate)
 sleep$SleepDay <- mdy_hms(sleep$SleepDay,tz=Sys.timezone())
 
 activity_cl <- distinct(activity)
 sleep_cl <- distinct(sleep)
 ```
+
+## Analyse
