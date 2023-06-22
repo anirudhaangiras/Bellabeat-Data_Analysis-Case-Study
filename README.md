@@ -21,7 +21,8 @@ In this hypothetical scenario, I am a junior data analyst working on the marketi
 I have been encouraged to use public data that explores smart device users’ daily habits, specifically, the [FitBit Fitness Tracker Data](https://www.kaggle.com/datasets/arashnic/fitbit). Analysing FitBit fitness tracker data will help gain insights into how consumers use the FitBit app and discover trends for Bellabeat marketing strategy.
 
 ## Ask
-**Business Task:** 
+**Business Task:**
+
 Analyse Fitbit Fitness tracker data to gain insights into how consumers use smart devices and discover trends to guide the Bellabeat marketing strategy.
 
 **Key Questions:**
@@ -33,9 +34,11 @@ Analyse Fitbit Fitness tracker data to gain insights into how consumers use smar
 In the prepare phase, we identify the data being used and its credibility.
 
 **Data Source:** 
+
 The data is publicly available on [Kaggle](https://www.kaggle.com/datasets/arashnic/fitbit). Thirty eligible Fitbit users consented to submit personal tracker data, including minute-level output for physical activity, heart rate, and sleep monitoring, generated between 12 March 2016 and 12 May 2016. The data was inspired by human temporal routine behavioural analysis and pattern recognition.
 
 **Data Limitations:**
+
 Data was collected six years ago, which renders the insights derived from the data untimely and irrelevant as the participants’ daily activity, fitness, sleeping habits, diet and food consumption may have changed since then. The sample size of 30 FitBit users does not represent the entire fitness population, nor can it be representative of yearly trends in activity, as the data was collected over two months. 
 
 
