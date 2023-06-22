@@ -150,3 +150,9 @@ Some interesting insights can be drawn from these statistics.
 Data visualisations were created using Tableau Public. The Dashboard is shown below and can be found [here](https://public.tableau.com/app/profile/anirudha.sharma/viz/BellabeatCaseStudy_16874537645290/BellabeatCaseStudy).
 
 ![Dashboard: Bellabeat Case Study](https://github.com/anirudhaangiras/Bellabeat-Data_Analysis-Case-Study/blob/main/Analyse/4.png)
+
+These data visualisations show some interesting trends.
+- The Weekday vs Average Distance bar graph shows a consistent amount of distance walked throughout the week with a slight decrease on Sunday.
+- The Weekday vs Average Sleep bar graph shows consistent sleep throughout the week with a slight increase in sleep patterns on weekends on Wednesday.
+- The Active Minutes Pie Chart shows that most of the participants remain sedentary throughout the day, with less than 5% of activity being very active or fairly active.
+- 
