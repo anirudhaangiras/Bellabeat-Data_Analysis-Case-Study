@@ -145,3 +145,6 @@ Some interesting insights can be drawn from these statistics.
 - Active minutes summary shows that most participants are sedentary throughout the day, with some being lightly active. Very few people are fairly or very active.
 - The average participant sleeps 1 time for about 7 hours, which is a good amount of sleep as recommended by the CDC.
 - The average participant sleeps more than 90% of their time in bed.
+
+## Share
+Data visualisations were created using Tableau Public. The Tableau Dashboard can be found [here](https://public.tableau.com/app/profile/anirudha.sharma/viz/BellabeatCaseStudy_16874537645290/BellabeatCaseStudy)
