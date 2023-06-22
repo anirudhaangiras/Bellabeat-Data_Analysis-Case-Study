@@ -148,4 +148,4 @@ Some interesting insights can be drawn from these statistics.
 
 ## Share
 Data visualisations were created using Tableau Public. The Tableau Dashboard is shown below and can be found [here](https://public.tableau.com/app/profile/anirudha.sharma/viz/BellabeatCaseStudy_16874537645290/BellabeatCaseStudy).
-
+![Dashboard: Bellabeat Case Study](https://github.com/anirudhaangiras/Bellabeat-Data_Analysis-Case-Study/blob/main/Analyse/4.png)
