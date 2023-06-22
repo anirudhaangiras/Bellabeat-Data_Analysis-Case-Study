@@ -138,3 +138,10 @@ sleep %>%
   summary()
 ```
 ![Summary: Sleep Records](https://github.com/anirudhaangiras/Bellabeat-Data_Analysis-Case-Study/blob/main/Analyse/3.png)
+
+Some interesting insights can be drawn from these statistics. 
+- Average distance covered is 5.49 kilometres, and the average steps taken are 7,638. These numbers are lower than the CDC-recommended 10,000 steps per day, which is equivalent to about 8 kilometres for most people.
+- The average participant burns 2304 calories per day or about 96 calories per hour.
+- Active minutes summary shows that most participants are sedentary throughout the day, with some being lightly active. Very few people are fairly or very active.
+- The average participant sleeps 1 time for about 7 hours, which is a good amount of sleep as recommended by the CDC.
+- The average participant sleeps more than 90% of their time in bed.
