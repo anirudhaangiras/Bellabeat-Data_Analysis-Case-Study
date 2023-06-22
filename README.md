@@ -6,7 +6,7 @@
 ## Characters and Products
 **Characters:**
 -   Urška Sršen: Bellabeat’s co-founder and Chief Creative Officer
--   Sando Mur: Mathematician and Bellabeat’s co-founder; a key member of the Bellabeat executive team
+-   Sando Mur: Mathematician and Bellabeat’s co-founder; a vital member of the Bellabeat executive team
 -   Bellabeat marketing analytics team: A team of data analysts responsible for collecting, analyzing, and reporting data that helps guide Bellabeat’s marketing strategy.
 
 **Products:**
@@ -18,5 +18,11 @@
 Membership gives users 24/7 access to fully personalized guidance on nutrition, activity, sleep, health and beauty, and mindfulness-based on their lifestyle and goals.
 
 ## Business Task
-I am a junior data analyst working on the marketing analyst team at Bellabeat. Bellabeat’s co-founders believe that analyzing smart device fitness data could help unlock new growth opportunities for the company. I have been asked to focus on one of Bellabeat’s products and analyze smart device data to understand how consumers use their smart devices. The insights discovered will then help guide the marketing strategy for the company.
-I have been encouraged to use public data that explores smart device users’ daily habits, specifically, the [FitBit Fitness Tracker Data](https://www.kaggle.com/datasets/arashnic/fitbit) (**License- CC0: Public Domain**)
+In this hypothetical scenario, I am a junior data analyst working on the marketing analyst team at Bellabeat. Bellabeat’s co-founders believe that analyzing smart device fitness data could help unlock new growth opportunities for the company. I have been asked to focus on one of Bellabeat’s products and analyze intelligent device data to understand how consumers use their smart devices. The insights discovered will then help guide the marketing strategy for the company.
+
+I have been encouraged to use public data that explores smart device users’ daily habits, specifically, the [FitBit Fitness Tracker Data](https://www.kaggle.com/datasets/arashnic/fitbit) (**License- CC0: Public Domain**). Analysing FitBit fitness tracker data will help gain insights into how consumers use the FitBit app and discover trends for Bellabeat marketing strategy answering questions such as
+- What are some trends in smart device usage?
+- How could these trends apply to Bellabeat customers?
+- How could these trends help influence Bellabeat marketing strategy? 
+
+
