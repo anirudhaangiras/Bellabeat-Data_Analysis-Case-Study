@@ -58,7 +58,9 @@ To assess the credibility of the data, I followed the ROCCC criteria:
 
 ## Process
 
-I selected Google Sheets to process the data by cleaning and ensuring it is correct, relevant, complete and error-free.
+I initially selected Google Sheets to process the data using the R programming language to transform and process the data further.
+
+**Google Sheets Changelog:**
 
 *sleepDay_merged:*
 - Changed SleepDay column from text to Date time.
@@ -67,20 +69,23 @@ I selected Google Sheets to process the data by cleaning and ensuring it is corr
 
 *weightLogInfo_merged:*
 - Changed Date column from text to Date time.
+- Created filters to check for missing values.
 - Changed WeightKg, WeightPounds and BMI columns to Number.
 - Dropped Fat column as it contained only two values.
 - COUNTUNIQUE function showed entries from 8 unique participants.
 
 *dailyActivity_merged:*
 - Changed ActivityDate column from text to Date.
+- Created filters to check for missing values.
 - Changed VeryActiveDistance, ModeratelyActiveDistance, LightActiveDistance and SedentaryActiveDistance to Number. 
 - COUNTUNIQUE function showed entries from 33 unique participants.
 
 *dailyCalories_merged*
 - Changed ActivityDate column from text to Date.
+- Created filters to check for missing values.
 - COUNTUNIQUE function showed entries from 33 unique participants.
 
 *dailySteps_merged*
 - Changed ActivityDate column from text to Date.
+- Created filters to check for missing values.
 - COUNTUNIQUE function showed entries from 33 unique participants.
-
