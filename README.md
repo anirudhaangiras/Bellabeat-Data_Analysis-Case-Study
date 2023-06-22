@@ -116,4 +116,11 @@ activity_cl <- distinct(activity)
 sleep_cl <- distinct(sleep)
 ```
 
-## Analyse
+## Analyse 
+To analyse the data, summary statistics were created using R
+```
+activity %>%
+  select(TotalSteps, TotalDistance, Calories) %>%
+  summary()
+```
+![Summary: Steps and Distance]()
