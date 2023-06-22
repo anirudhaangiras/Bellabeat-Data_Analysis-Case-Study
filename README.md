@@ -123,4 +123,4 @@ activity %>%
   select(TotalSteps, TotalDistance, Calories) %>%
   summary()
 ```
-![Summary: Steps and Distance]()
+![Summary: Steps, Distance and Calories](https://github.com/anirudhaangiras/Bellabeat-Data_Analysis-Case-Study/blob/main/Analyse/1.png)
