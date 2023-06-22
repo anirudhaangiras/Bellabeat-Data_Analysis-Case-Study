@@ -146,8 +146,7 @@ Some interesting insights can be drawn from these statistics.
 - Average distance covered is 5.49 kilometres, and the average steps taken are 7,638. These numbers are lower than the CDC-recommended 10,000 steps per day, which is equivalent to about 8 kilometres for most people.
 - The average participant burns 2304 calories per day or about 96 calories per hour.
 - Active minutes summary shows that most participants are sedentary throughout the day, with some being lightly active. Very few people are fairly or very active.
-- The average participant sleeps 1 time for about 7 hours, which is a good amount of sleep as recommended by the CDC.
-- The average participant sleeps more than 90% of their time in bed.
+- The average participant sleeps one time for about 7 hours, which is a good amount of sleep as recommended by the CDC.
 
 ## Share
 
@@ -158,8 +157,12 @@ Data visualisations were created using Tableau Public. The Dashboard is shown be
 These data visualisations show some interesting trends.
 - The Weekday vs Average Distance bar graph shows a consistent amount of distance walked throughout the week with a slight decrease on Sunday.
 - The Weekday vs Average Sleep bar graph shows consistent sleep throughout the week with a slight increase in sleep patterns on weekends on Wednesday.
-- The Active Minutes Pie Chart shows that most participants remain sedentary throughout the day, with a very little amount of activity being very active or fairly active.
+- The Active Minutes Pie Chart shows that most participants remain sedentary throughout the day, with minimal activity being very active or fairly active.
 
 ## Act
 
-Keeping the business task in mind, the insights drawn from the statistics and data visualisations above can help guide the marketing strategy for Bellabeat.
+Keeping the business task in mind, the insights drawn from the statistics and data visualisations above can help guide the marketing strategy for Bellabeat. Taking the Bellabeat app as our targeted product:
+- Majority of users are using the Fitbit app to track sedentary activities and not using it for monitoring active workouts. The Bellabeat app should encourage reducing sedentary time and taking breaks to move around when inactive for a long time.
+- The participants of the Fitbit dataset averaged 7,638 steps per day, significantly less than the CDC-recommended 10,000 steps. Though encouraging this has been widely used, a point system could prove beneficial in helping the Bellabeat app users target this goal.
+- Bellabeat marketing team should educate their users with knowledge about fitness benefits and suggest different types of exercises primarily targeted towards women.
+- Bellabeat app should also consider app notifications to warn users about bedtime to improve their sleep.
